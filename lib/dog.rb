@@ -5,6 +5,7 @@ class Dog
   end
   
   def breed_meth(breed=nil)
-    breed ||= 
+    breed ||= "Mutt"
+  end
   
 end 
