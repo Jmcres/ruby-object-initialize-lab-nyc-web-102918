@@ -4,6 +4,7 @@ class Dog
     @breed = breed_meth
   end
   
-  def breed_meth
+  def breed_meth(breed=nil)
+    breed ||= 
   
 end 
